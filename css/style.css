@@ -1,7 +1,8 @@
 body { margin: 0; }
 #boxy {
   background-color: #5CD77C;
-
+  background-image: url("../img/web.png");
+  background-repeat: no-repeat;
   width: 100%;
   height: auto;
 }
