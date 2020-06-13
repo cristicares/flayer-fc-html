@@ -1,6 +1,9 @@
-body { margin: 0; }
-#boxy {
+body {
+  margin: 0;
   background-color: #5CD77C;
+}
+
+#boxy {
   background-image: url("../img/web.png");
   background-repeat: no-repeat;
   width: 100%;
