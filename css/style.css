@@ -13,3 +13,94 @@ body {
 .toolbar{
   width: 100%;
 }
+
+/* Firefox old*/
+@-moz-keyframes blink {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+/* IE */
+@-ms-keyframes blink {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  5% {
+    opacity:0;
+  }
+  10% {
+    opacity:1;
+  }
+  15% {
+    opacity:0;
+  }
+  20% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  30% {
+    opacity:1;
+  }
+  35% {
+    opacity:0;
+  }
+  40% {
+    opacity:1;
+  }
+  45% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  60% {
+    opacity:1;
+  }
+  65% {
+    opacity:0;
+  }
+  70% {
+    opacity:1;
+  }
+}
+.blink-image {
+  -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+  -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+  -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+  animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
